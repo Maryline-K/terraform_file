@@ -22,10 +22,10 @@ provider "aws" {
 }
 
 resource "aws_instance" "app_server" {
-  ami = "ami-052efd3df9dad4825" 
+  ami = "add yours here" 
   instance_type = "t2.micro"
-  vpc_security_group_ids = ["sg-028a4390d58f8f5bc"]  
-  subnet_id = "subnet-0cd4600baa10346bb" 
+  vpc_security_group_ids = ["add yours here"]  
+  subnet_id = "add yours here" 
 
   tags = {
     Name = "MyTerraformInstance"
